@@ -1,0 +1,43 @@
+.bioTwoContainer{
+    width: 100%;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bioTwoContent{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.bioTwoImage{
+    height: 100%;
+    position: absolute;
+    grid-column-start: 2;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, transparent, transparent, transparent, transparent,transparent, transparent, #0004);
+}
+
+.bioTwoImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 15%;
+}
+
+.bioTwoText{
+    color: white;
+    text-align: center;
+    height: 100%;
+    grid-column-start: 1;
+}
+
+.bioTwoContent h2{
+    font-family: "brand";
+    color: white;
+    text-align: center;
+}

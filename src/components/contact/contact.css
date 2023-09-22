@@ -1,0 +1,36 @@
+.contactContainer{
+    height: 100vh;
+    display: flex;
+}
+
+.contactContent{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.contactContent h2{
+    font-size: 30px;
+    color: white;
+    font-family: 'brand';
+}
+
+.contactContent img{
+    margin-top: 50px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.contactContent h3{
+    color: white;
+    font-weight: 400;
+}
+
+.contactContainer a{
+    color: white;
+}

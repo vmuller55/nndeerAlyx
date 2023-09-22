@@ -1,0 +1,41 @@
+.bioContainer{
+    width: 100%;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bioContent{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.bioImage{
+    height: 100%;
+}
+
+.bioImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 40%;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, transparent, transparent, #0004);
+}
+
+.bioText{
+    color: white;
+    text-align: center;
+    height: 100%;
+    
+}
+
+.bioContent h2{
+    font-family: "brand";
+    color: white;
+    text-align: center;
+}
