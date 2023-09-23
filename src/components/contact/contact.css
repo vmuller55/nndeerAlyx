@@ -29,8 +29,11 @@
 .contactContent h3{
     color: white;
     font-weight: 400;
+    text-align: center;
 }
 
 .contactContainer a{
     color: white;
+    font-size: 24px;
+    font-family: 'brand';
 }
