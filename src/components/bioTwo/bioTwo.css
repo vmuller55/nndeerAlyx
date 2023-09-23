@@ -47,7 +47,7 @@
     .bioTwoContent{
         grid-template-columns: auto;
         grid-template-rows: repeat(2, 1fr);
-        height: 100vh;
+        height: 90%;
         width: 100%;
     }
     .bioTwoImage{

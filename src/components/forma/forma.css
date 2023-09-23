@@ -148,6 +148,9 @@
 
 @media only screen and (max-width : 800px) {
     .formaContent{
+        height: 90%;
+    }
+    .formationsList{
         height: 100vh;
     }
     .formaContent h2{
@@ -155,8 +158,8 @@
     }
     .formaTab{
         flex-direction: column;
-        gap: 100px;
-        margin-top: 50px;
+        height: 90%;
+        margin-top: 0px;
     }
     .forma{
         height: 15vh;
@@ -165,6 +168,7 @@
     }
     .formaContainer{
         margin-top: 50px;
+        height: 100vh;
     }
     .colorBandTop{
         transform: translateY(-10%) translateX(-80%) rotate(135deg) 
@@ -182,9 +186,16 @@
         top: 25%;
     }
     .formaList{
-        height: 100vh;
-        margin: 30px auto;
         gap: 10px;
+        height: 90%;
+        width: 80%;
+        grid-template-rows: repeat(3, 1fr);
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%);
+        margin-top: 10%;
+        z-index: 999;
     }
     .formaDetail{
         height: 100%;
