@@ -1,6 +1,6 @@
 import './bio.css'
 import ongle3 from '../../assets/ongle3.jpg'
-import SmokeRedAndBlue from '../../assets/SmokeRedAndBlue.png'
+import SmokeRedAndBlue from '../../assets/smokeRedAndBlue.png'
 
 const Bio = () => {
     return(
