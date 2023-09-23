@@ -149,6 +149,7 @@
 @media only screen and (max-width : 800px) {
     .formaContent{
         height: 50%;
+        margin-top: 50px;
     }
     .formationsList{
         height: 100vh;
