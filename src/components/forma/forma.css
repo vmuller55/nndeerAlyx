@@ -156,7 +156,7 @@
     .formaTab{
         flex-direction: column;
         height: 90%;
-        margin-top: 0px;
+        margin-top: 50px;
     }
     .forma{
         height: 15vh;
@@ -182,7 +182,9 @@
         transform: translateY(-100%) translateX(-25%) rotate(135deg);
     } 
     .formaTitle{
-        top: 25%;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%);
     }
     .formaList{
         gap: 10px;

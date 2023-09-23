@@ -17,7 +17,7 @@
 
 @media only screen and (max-width : 800px) {
     .videoContainer{
-        height: 50vh;
+        display: none;
     }
     .videoContent video{
         width: 80%;
