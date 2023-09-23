@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import './contact.css'
 import InstaLogo from '../../assets/insta.webp'
-import Smoke from '../../assets/Smoke.png'
+import Smoke from '../../assets/smoke.png'
 
 const Contact = () => {
     return(
