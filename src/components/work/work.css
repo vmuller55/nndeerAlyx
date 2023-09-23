@@ -103,7 +103,7 @@
 @media only screen and (max-width : 800px) {
     .workContainer{
         height: 100vh;
-        background-size: cover;
+        background-size: fill;
     }
     .workPhoto{
         grid-template-columns: repeat(2, 1fr);
