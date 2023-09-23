@@ -1,6 +1,8 @@
 .contactContainer{
     height: 100vh;
     display: flex;
+    position: relative;
+    
 }
 
 .contactContent{
@@ -11,7 +13,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px;
+    z-index: 999;
 }
 
 .contactContent h2{
@@ -21,19 +23,39 @@
 }
 
 .contactContent img{
-    margin-top: 50px;
-    width: 100px;
-    border-radius: 50%;
+    width: 50px;
 }
 
 .contactContent h3{
     color: white;
     font-weight: 400;
     text-align: center;
+    font-size: 24px;
+    width: 90%;
 }
 
-.contactContainer a{
+.mailButton{
     color: white;
     font-size: 24px;
     font-family: 'brand';
+    box-shadow: 0px 0px 10px #B1A7A6;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.smokeContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    opacity: 0.5;
+    overflow: hidden;
+}
+
+.smokeContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }

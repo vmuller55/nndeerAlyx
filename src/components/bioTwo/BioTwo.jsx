@@ -1,9 +1,13 @@
 import './bioTwo.css'
 import ongle1 from '../../assets/ongle7.jpg'
+import SmokeRedAndBlue from '../../assets/SmokeRedAndBlue.png'
 
 const BioTwo = () => {
     return(
         <div className="bioTwoContainer">
+            <div className="smokeRedAndBlueTwo">
+                    <img src={SmokeRedAndBlue} alt='smoke red and blue style'></img>
+                </div>
             <div className="bioTwoContent">
                 <div className="bioTwoImage">
                     <img src={ongle1} alt='pose néon'></img>
