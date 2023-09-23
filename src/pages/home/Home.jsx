@@ -6,31 +6,35 @@ import VideoCapture from '../../components/video/Video'
 import Forma from '../../components/forma/Forma'
 import Work from '../../components/work/Work'
 import Contact from '../../components/contact/Contact'
+import FormaList from '../../components/formaList/formaList'
 
 const Home = () => {
     return(
         <div className="homeContainer">
-            <div className="homeHeader">
+            <section className="homeHeader">
                 <Header/>
-            </div>
-            <div className="bio">
+            </section>
+            <section className="bio">
                 <Bio/>
-            </div>
-            <div className="bioTwo">
+            </section>
+            <section className="bioTwo">
                 <BioTwo/>
-            </div>
-            <div className="video">
+            </section>
+            <section className="video">
                 <VideoCapture/>
-            </div>
-            <div className="formations">
+            </section>
+            <section className="formations">
                 <Forma/>
-            </div>
-            <div className="work">
+            </section>
+            <section className="formationsList">
+                <FormaList/>
+            </section>
+            <section className="work">
                 <Work/>
-            </div>
-            <div className="contact">
+            </section>
+            <section className="contact">
                 <Contact/>
-            </div>
+            </section>
         </div>
     )
 }

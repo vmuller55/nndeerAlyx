@@ -1,6 +1,6 @@
 .bioTwoContainer{
     width: 100%;
-    margin: 100px 0;
+    margin: 100px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,4 +40,33 @@
     font-family: "brand";
     color: white;
     text-align: center;
+}
+
+@media only screen and (max-width : 800px) {
+    
+    .bioTwoContent{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, 1fr);
+        height: 100vh;
+        width: 100%;
+    }
+    .bioTwoImage{
+        width: 100%;
+        height: 65%;
+        position: relative;
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    .bioTwoImage img{
+        width: 100%;
+        height: 100%;
+    }
+    .bioTwoContainer{
+        height: 100vh ;
+        width: 80vw;
+        margin: 30px auto;
+    }
+    .bioTwoText p{
+        font-size: 14px;
+    }
 }
