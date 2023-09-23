@@ -148,13 +148,10 @@
 
 @media only screen and (max-width : 800px) {
     .formaContent{
-        height: 90%;
+        height: 50%;
     }
     .formationsList{
         height: 100vh;
-    }
-    .formaContent h2{
-        padding: 50px;
     }
     .formaTab{
         flex-direction: column;
@@ -168,7 +165,9 @@
     }
     .formaContainer{
         margin-top: 50px;
-        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
     }
     .colorBandTop{
         transform: translateY(-10%) translateX(-80%) rotate(135deg) 
@@ -187,10 +186,13 @@
     }
     .formaList{
         gap: 10px;
-        height: 100vh;
+        height: 45%;
         width: 80%;
         grid-template-rows: repeat(3, 1fr);
         z-index: 999;
+        margin: auto auto;
+        gap: 50px;
+        margin-bottom: 100px;
     }
     .formaDetail{
         height: 100%;
@@ -205,7 +207,8 @@
         font-size: 14px;
     }
     .coaching{
-        grid-row-start: 3;
+        height: 80%;
+        grid-row-start: 2;
     }
     .coaching p{
         grid-column: span 2;
@@ -228,6 +231,9 @@
     }
     .stainTwo{
         width: 100%;
-        top: 30%;
+        top: 45%;
+    }
+    .stainTwo img{
+        width: 100%;
     }
 }

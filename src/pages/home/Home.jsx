@@ -6,7 +6,7 @@ import VideoCapture from '../../components/video/Video'
 import Forma from '../../components/forma/Forma'
 import Work from '../../components/work/Work'
 import Contact from '../../components/contact/Contact'
-import FormaList from '../../components/formaList/formaList'
+
 
 const Home = () => {
     return(
@@ -25,9 +25,6 @@ const Home = () => {
             </section>
             <section className="formations">
                 <Forma/>
-            </section>
-            <section className="formationsList">
-                <FormaList/>
             </section>
             <section className="work">
                 <Work/>
